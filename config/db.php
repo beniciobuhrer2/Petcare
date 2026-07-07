@@ -1,7 +1,7 @@
 <?php
 
 $host   = 'localhost';
-$dbname = 'vetclinica';
+$dbname = 'vetclinic';
 $user   = 'root';
 $senha  = '1234';
  

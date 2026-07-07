@@ -9,7 +9,7 @@ require_once "../config/db.php";
 
 $id = $_GET['id'] ?? 0;
 
-$sql = "DELETE FROM usuarios WHERE id = ?";
+$sql = "DELETE FROM consultas WHERE id = ?";
 $stmt = mysqli_prepare($db, $sql);
 mysqli_stmt_bind_param($stmt, "i", $id);
 mysqli_stmt_execute($stmt);
